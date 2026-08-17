@@ -92,12 +92,6 @@ Being able to look at an older project and identify improvements is one of the t
 
 The Animal Shelter Dashboard is included below as the primary database artifact in my ePortfolio.
 
-### Project Screenshots
-
-Screenshots of the Animal Shelter Dashboard will be added here.
-
-[View Project Screenshots](#)
-
 ### Source Code
 
 The source code for the Animal Shelter Dashboard is available on GitHub.
