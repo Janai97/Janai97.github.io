@@ -61,16 +61,20 @@ That is one of the reasons I chose this project for my ePortfolio. It shows both
 
 ## Artifact
 
-The completed Computational Graphics and Visualization project is included below.
+The Computational Graphics and Visualization project demonstrates my experience with C++, OpenGL, Visual Studio, 3D objects, textures, and scene development.
+
+### Original Version
+
+The original version represents the project as it was completed before the improvements made for my CS 499 ePortfolio.
+
+[View the Original CS330 Project](https://github.com/Janai97/Janai97.github.io/tree/main/projects/cs330/original)
+
+### Enhanced Version
+
+The enhanced version includes the improvements I made to the project as part of my CS 499 work.
+
+[View the Enhanced CS330 Project](https://github.com/Janai97/Janai97.github.io/tree/main/projects/cs330/enhanced)
 
 ### Project Screenshots
 
-Screenshots of the completed 3D scene will be added to this section.
-
-[View Project Screenshots](#)
-
-### Source Code
-
-The source code for the project is available on GitHub.
-
-[View the Computational Graphics and Visualization Project on GitHub](#)
+Screenshots of the completed 3D scene will be added later.
