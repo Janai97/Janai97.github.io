@@ -90,16 +90,16 @@ Being able to look at an older project and identify improvements is one of the t
 
 ## Artifact
 
-The Animal Shelter Dashboard is included below as the primary database artifact in my ePortfolio.
+The Animal Shelter Dashboard from CS 340 demonstrates my experience working with MongoDB, Python, database connections, and CRUD operations. Both the original and enhanced versions are included to show how the project developed throughout the program.
 
-### Source Code
+### Original Version
 
-The source code for the Animal Shelter Dashboard is available on GitHub.
+The original version represents the Animal Shelter Dashboard as it was completed for CS 340 before the improvements made for my CS 499 ePortfolio.
 
-[View the Animal Shelter Dashboard on GitHub](#)
+[View the Original CS340 Project](https://github.com/Janai97/Janai97.github.io/tree/main/projects/cs340/original)
 
-### Project Documentation
+### Enhanced Version
 
-Additional documentation and supporting materials for the project will be included here.
+The enhanced version includes the improvements I made to the Animal Shelter Dashboard as part of my CS 499 work.
 
-[View Project Documentation](#)
+[View the Enhanced CS340 Project](https://github.com/Janai97/Janai97.github.io/tree/main/projects/cs340/enhanced)
