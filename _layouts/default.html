@@ -1,16 +1,7 @@
 <!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
-<head>
-  {% if site.google_analytics %}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
-    gtag('config', '{{ site.google_analytics }}');
-  </script>
-  {% endif %}
+<head>
 
   <meta charset="UTF-8">
 
@@ -18,31 +9,38 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  <link
+    rel="stylesheet"
+    href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}"
+  >
 
 </head>
 
 <body>
 
-<div class="wrapper">
+<div class="site-container">
 
-  <header>
+  <header class="site-header">
 
-    {% if site.logo %}
-    <img src="{{site.logo | relative_url}}" alt="Janai Williams">
-    {% endif %}
+    <div class="site-header-inner">
 
-    <h1>{{ site.title }}</h1>
+      <h1>
+        <a href="{{ "/" | relative_url }}">
+          Janai Williams
+        </a>
+      </h1>
 
-    {% if site.description %}
-    <p>{{ site.description }}</p>
-    {% endif %}
+      <p class="site-subtitle">
+        Software Engineering Portfolio
+      </p>
+
+      {% include navigation.md %}
+
+    </div>
 
   </header>
 
-  <main>
-
-    {% include navigation.md %}
+  <main class="site-content">
 
     {{ content }}
 
@@ -51,4 +49,5 @@
 </div>
 
 </body>
+
 </html>
