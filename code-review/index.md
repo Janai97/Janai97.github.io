@@ -51,4 +51,12 @@ The code review also reinforced the idea that software development is an ongoing
 
 The following video provides an overview of my code review and the changes I made to the project.
 
-[Watch My Code Review Presentation](https://www.youtube.com/watch?v=hp-_c32tOC8)
+<iframe width="100%" height="500"
+src="https://www.youtube.com/embed/hp-_c32tOC8"
+title="CS499 Code Review Presentation"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen>
+</iframe>
+
+[Watch My Code Review Presentation on YouTube](https://www.youtube.com/watch?v=hp-_c32tOC8)
