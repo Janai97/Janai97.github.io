@@ -67,16 +67,16 @@ The artifact included in this section represents that growth. It shows my abilit
 
 ## Artifact
 
-The completed artifact for Algorithms & Data Structures is included below.
+The CS260 artifact demonstrates my experience applying algorithms and data structures to solve programming problems. The original and enhanced versions are included below to show the development of the project and the improvements made during CS 499.
 
-### Project Files
+### Original Version
 
-The project files and supporting materials will be included here.
+The original version represents the project as it was completed before the improvements made for my CS 499 ePortfolio.
 
-[View Project Files](#)
+[View the Original CS260 Project](https://github.com/Janai97/Janai97.github.io/tree/main/projects/cs260/original)
 
-### Source Code
+### Enhanced Version
 
-The source code for the project is available on GitHub.
+The enhanced version includes the improvements I made to the project as part of my CS 499 work.
 
-[View the Algorithms & Data Structures Project on GitHub](#)
+[View the Enhanced CS260 Project](https://github.com/Janai97/Janai97.github.io/tree/main/projects/cs260/enhanced)
