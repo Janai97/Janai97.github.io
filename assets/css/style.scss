@@ -1,3 +1,120 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* ==============================
+   GLOBAL
+   ============================== */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  line-height: 1.7;
+  color: #222;
+  background: #ffffff;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* ==============================
+   FIXED SITE HEADER
+   ============================== */
+
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.site-header-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 30px;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
+
+.site-header h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.site-subtitle {
+  margin: 3px 0 15px;
+  font-size: 1rem;
+  color: #666;
+}
+
+
+/* ==============================
+   NAVIGATION
+   ============================== */
+
+.site-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+}
+
+.site-navigation a {
+  padding: 7px 12px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #333;
+  transition: background-color 0.2s ease;
+}
+
+.site-navigation a:hover {
+  background: #f0f0f0;
+}
+
+
+/* ==============================
+   MAIN CONTENT
+   ============================== */
+
+.site-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 190px 30px 60px;
+}
+
+
+/* ==============================
+   HOMEPAGE TWO-COLUMN LAYOUT
+   ============================== */
+
 .home-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
@@ -14,16 +131,26 @@
   padding-left: 20px;
 }
 
+
+/* ==============================
+   SECTION LABELS
+   ============================== */
+
 .section-label {
-  margin-bottom: 10px;
+  margin: 0 0 10px;
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 2px;
   color: #666;
 }
 
+
+/* ==============================
+   HOMEPAGE INTRODUCTION
+   ============================== */
+
 .home-introduction h1 {
-  margin-top: 0;
+  margin: 0;
   font-size: 3.5rem;
   line-height: 1.1;
 }
@@ -36,12 +163,59 @@
 }
 
 .home-introduction .hero-school {
+  margin-top: 10px;
   color: #666;
 }
 
 .home-introduction .hero-buttons {
   margin-top: 25px;
 }
+
+
+/* ==============================
+   FEATURED PROJECTS
+   ============================== */
+
+.featured-projects h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.project-card {
+  min-width: 0;
+  padding: 24px;
+  margin: 20px 0;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  background: #fafafa;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.project-card:first-of-type {
+  margin-top: 0;
+}
+
+.project-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  line-height: 1.3;
+}
+
+.project-card p {
+  margin-bottom: 15px;
+}
+
+
+/* ==============================
+   ABOUT ME
+   ============================== */
 
 .home-introduction .about-section {
   margin-top: 70px;
@@ -51,13 +225,104 @@
 
 .home-introduction .about-section h2 {
   margin-top: 0;
+  margin-bottom: 20px;
 }
 
-.featured-projects h2 {
-  margin-top: 0;
+.about-section p {
+  margin-bottom: 18px;
 }
+
+
+/* ==============================
+   BUTTONS
+   ============================== */
+
+.button {
+  display: inline-block;
+  padding: 10px 18px;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  background: #ffffff;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.button:hover {
+  background: #f0f0f0;
+  transform: translateY(-1px);
+}
+
+
+/* ==============================
+   GENERAL HEADINGS
+   ============================== */
+
+h1 {
+  line-height: 1.2;
+}
+
+h2 {
+  margin-top: 2.5rem;
+  line-height: 1.3;
+}
+
+h3 {
+  margin-top: 1.5rem;
+  line-height: 1.3;
+}
+
+
+/* ==============================
+   GENERAL PAGE CONTENT
+   ============================== */
+
+main img {
+  border-radius: 8px;
+}
+
+main ul {
+  padding-left: 25px;
+}
+
+main li {
+  margin-bottom: 6px;
+}
+
+
+/* ==============================
+   MOBILE / SMALL SCREENS
+   ============================== */
 
 @media (max-width: 800px) {
+
+  .site-header-inner {
+    padding: 15px 20px;
+  }
+
+  .site-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .site-subtitle {
+    margin-bottom: 10px;
+  }
+
+  .site-navigation {
+    gap: 4px;
+  }
+
+  .site-navigation a {
+    padding: 6px 8px;
+    font-size: 0.85rem;
+  }
+
+  .site-content {
+    padding: 175px 20px 40px;
+  }
 
   .home-grid {
     grid-template-columns: 1fr;
@@ -70,6 +335,48 @@
 
   .home-introduction h1 {
     font-size: 2.8rem;
+  }
+
+  .home-introduction .hero-description {
+    font-size: 1.15rem;
+  }
+
+}
+
+
+/* ==============================
+   VERY SMALL SCREENS
+   ============================== */
+
+@media (max-width: 500px) {
+
+  .site-header-inner {
+    padding: 12px 15px;
+  }
+
+  .site-header h1 {
+    font-size: 1.3rem;
+  }
+
+  .site-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .site-navigation a {
+    padding: 5px 7px;
+    font-size: 0.8rem;
+  }
+
+  .site-content {
+    padding: 165px 15px 35px;
+  }
+
+  .home-introduction h1 {
+    font-size: 2.4rem;
+  }
+
+  .project-card {
+    padding: 20px;
   }
 
 }
