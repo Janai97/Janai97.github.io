@@ -51,10 +51,4 @@ The code review also reinforced the idea that software development is an ongoing
 
 The following video provides an overview of my code review and the changes I made to the project.
 
-[Watch My Code Review Presentation](#)
-
-## Source Code
-
-The source code for the project is available on GitHub.
-
-[View the Animal Shelter Dashboard on GitHub](#)
+[Watch My Code Review Presentation](https://www.youtube.com/watch?v=hp-_c32tOC8)
